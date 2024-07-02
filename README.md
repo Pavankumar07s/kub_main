@@ -28,41 +28,41 @@ To get started, you can clone this repository:
    Installation
    Follow the instructions in each folder's README.md file to set up and run the examples.
 
-Stages of Learning
-Beginner
-Introduction to Kubernetes
+##Stages of Learning
+   Beginner
+   Introduction to Kubernetes
 
-Understanding Kubernetes components
-Setting up Minikube
-Running your first Pod
-Basic Commands
+##Understanding Kubernetes components
+    Setting up Minikube
+    Running your first Pod
+    Basic Commands
 
-kubectl commands
-Working with Pods, Services, and Deployments
-Intermediate
-Deploying Applications
+##kubectl commands
+  Working with Pods, Services, and Deployments
+  Intermediate
+  Deploying Applications
 
-Deploying multi-container applications
-Using ConfigMaps and Secrets
-Networking and Storage
+##Deploying multi-container applications
+  Using ConfigMaps and Secrets
+  Networking and Storage
 
-Understanding Kubernetes networking
-Configuring Persistent Volumes
-Advanced
-Helm and Operators
+##Understanding Kubernetes networking
+  Configuring Persistent Volumes
+  Advanced
+  Helm and Operators
 
-Using Helm charts
-Creating and using Kubernetes Operators
-CI/CD Integration
+##Using Helm charts
+  Creating and using Kubernetes Operators
+  CI/CD Integration
 
-Setting up CI/CD pipelines with Kubernetes
-Using Jenkins or GitHub Actions
-Contributing
-Contributions are welcome! Please feel free to submit a Pull Request.
+##Setting up CI/CD pipelines with Kubernetes
+  Using Jenkins or GitHub Actions
+  Contributing
+  Contributions are welcome! Please feel free to submit a Pull Request.
 
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
+##License
+  This project is licensed under the MIT License - see the LICENSE file for details.
 
-Acknowledgments
-Kubernetes documentation
-Various online resources and tutorials
+##Acknowledgments
+  Kubernetes documentation
+  Various online resources and tutorials
