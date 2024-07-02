@@ -17,16 +17,15 @@ Welcome to my Kubernetes practice repository! This repository is organized to he
 ## Getting Started
 
 To get started, you can clone this repository:
-
-      git clone https://github.com/your-username/your-repo-name.git
-      cd your-repo-name
-
+     ```bash
+            git clone https://github.com/your-username/your-repo-name.git
+             cd your-repo-name
 ## Prerequisites
-    Docker
-    Kubernetes CLI (kubectl)
-     Mnikube or any other Kubernetes setup
-     Installation
-     Follow the instructions in each folder's README.md file to set up and run the examples.
+  Docker
+  Kubernetes CLI (kubectl)
+  Mnikube or any other Kubernetes setup
+  Installation
+  Follow the instructions in each folder's README.md file to set up and run the examples.
 ##Stages of Learning
    Beginner
    Introduction to Kubernetes
