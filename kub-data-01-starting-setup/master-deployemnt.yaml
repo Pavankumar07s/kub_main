@@ -19,7 +19,7 @@ kind: Deployment
 metadata:
   name: story-deployment
 spec:
-  replicas: 1
+  replicas: 3
   selector:
     matchLabels:
       app: story
@@ -32,14 +32,16 @@ spec:
     spec:
       containers:
         - name: story
-          image: pavankumar07s/kube_data_prac
+          image: pavankumar07s/kube_data_prac:3
           imagePullPolicy: Always
           volumeMounts:
             - mountPath: /app/story
               name: story-volume
           ports:
-            - containerPort: 80
+            - containerPort: 8080
       volumes:
         - name: story-volume
           emptyDir: {}
-          
+          # hostPath:
+          #   path: /data/app
+          #   type: DirectoryOrCreate
