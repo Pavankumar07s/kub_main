@@ -18,7 +18,7 @@ Welcome to my Kubernetes practice repository! This repository is organized to he
 
 To get started, you can clone this repository:
      ```bash
-            git clone https://github.com/your-username/your-repo-name.git
+            git clone https://github.com/your-Pavankumar07s/kub_main
              cd your-repo-name
 ## Prerequisites
   Docker
@@ -26,41 +26,41 @@ To get started, you can clone this repository:
   Mnikube or any other Kubernetes setup
   Installation
   Follow the instructions in each folder's README.md file to set up and run the examples.
-##Stages of Learning
+## Stages of Learning
    Beginner
    Introduction to Kubernetes
 
-##Understanding Kubernetes components
+## Understanding Kubernetes components
     Setting up Minikube
     Running your first Pod
     Basic Commands
 
-##kubectl commands
+## kubectl commands
   Working with Pods, Services, and Deployments
   Intermediate
   Deploying Applications
 
-##Deploying multi-container applications
+## Deploying multi-container applications
   Using ConfigMaps and Secrets
   Networking and Storage
 
-##Understanding Kubernetes networking
+## Understanding Kubernetes networking
   Configuring Persistent Volumes
   Advanced
   Helm and Operators
 
-##Using Helm charts
+## Using Helm charts
   Creating and using Kubernetes Operators
   CI/CD Integration
 
-##Setting up CI/CD pipelines with Kubernetes
+## Setting up CI/CD pipelines with Kubernetes
   Using Jenkins or GitHub Actions
   Contributing
   Contributions are welcome! Please feel free to submit a Pull Request.
 
-##License
+## License
   This project is licensed under the MIT License - see the LICENSE file for details.
 
-##Acknowledgments
+## Acknowledgments
   Kubernetes documentation
   Various online resources and tutorials
