@@ -1,0 +1,45 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: story-service
+spec:
+  selector:
+    app: story
+    tier: backend
+  ports:
+    - protocol: TCP
+      port: 80
+      targetPort: 8080
+      nodePort: 30009
+  type: NodePort
+
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: story-deployment
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: story
+      tier: backend
+  template:
+    metadata:
+      labels:
+        app: story
+        tier: backend
+    spec:
+      containers:
+        - name: story
+          image: pavankumar07s/kube_data_prac
+          imagePullPolicy: Always
+          volumeMounts:
+            - mountPath: /app/story
+              name: story-volume
+          ports:
+            - containerPort: 80
+      volumes:
+        - name: story-volume
+          emptyDir: {}
+          
