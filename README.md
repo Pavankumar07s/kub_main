@@ -17,9 +17,9 @@ Welcome to my Kubernetes practice repository! This repository is organized to he
 ## Getting Started
 
 To get started, you can clone this repository:
-     ```bash
-            git clone https://github.com/your-Pavankumar07s/kub_main
-             cd your-repo-name
+    ```bash
+        git clone https://github.com/your-Pavankumar07s/kub_main
+        cd your-repo-name
 ## Prerequisites
   Docker
   Kubernetes CLI (kubectl)
