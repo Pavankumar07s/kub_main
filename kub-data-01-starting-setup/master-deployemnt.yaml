@@ -41,7 +41,5 @@ spec:
             - containerPort: 8080
       volumes:
         - name: story-volume
-          emptyDir: {}
-          # hostPath:
-          #   path: /data/app
-          #   type: DirectoryOrCreate
+          persistentVolumeClaim:
+            claimName: host-pvc
