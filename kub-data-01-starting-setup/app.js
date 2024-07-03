@@ -32,6 +32,7 @@ app.post("/story", (req, res) => {
   });
 });
 app.get("/error", () => {
+  console.log("Error file has been opened")
   process.exit(1);
 });
 
