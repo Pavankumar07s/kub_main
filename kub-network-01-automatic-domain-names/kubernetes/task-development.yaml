@@ -4,7 +4,7 @@ metadata:
   name: tasks-deployment
 spec:
   replicas: 1
-  selector: 
+  selector:
     matchLabels:
       app: tasks
   template:
@@ -15,3 +15,6 @@ spec:
       containers:
         - name: tasks
           image: pavankumar07s/kub_tasks_prac:latest
+          env:
+            - name: TASKS_FOLDER
+              value: "task"

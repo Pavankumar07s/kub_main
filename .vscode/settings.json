@@ -1,0 +1,5 @@
+{
+    "yaml.schemas": {
+        "https://json.schemastore.org/yamllint.json": "file:///home/pavan/Desktop/Backend%20/kubernetes/kub-network-01-automatic-domain-names/kubernetes/task-development.yaml"
+    }
+}
