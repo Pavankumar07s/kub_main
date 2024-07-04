@@ -14,7 +14,8 @@ spec:
     spec:
       containers:
         - name: users
-          image: pavankumar07s/kube_network_practice:latest
+          imagePullPolicy: Always
+          image: pavankumar07s/kube_network_practice
           env:
             - name: AUTH_ADDRESS
               # value: "10.99.104.252"

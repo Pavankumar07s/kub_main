@@ -14,7 +14,10 @@ spec:
     spec:
       containers:
         - name: tasks
-          image: pavankumar07s/kub_tasks_prac:latest
+          imagePullPolicy: Always
+          image: pavankumar07s/kub_tasks_prac
           env:
             - name: TASKS_FOLDER
-              value: "task"
+              value: "tasks"
+            - name: AUTH_ADDRESS
+              value: "auth-service.default"
