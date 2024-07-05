@@ -16,6 +16,12 @@ spec:
         - name: users
           imagePullPolicy: Always
           image: pavankumar07s/kube_network_practice
+          # livenessProbe:
+          #   httpGet:
+          #     path: /signup
+          #     port: 8080
+          #   initialDelaySeconds: 5
+          #   periodSeconds: 5
           env:
             - name: AUTH_ADDRESS
               # value: "10.99.104.252"
