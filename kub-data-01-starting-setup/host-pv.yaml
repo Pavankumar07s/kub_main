@@ -4,7 +4,7 @@ metadata:
   name: host-pv
 spec:
   capacity:
-    storage: 1Gi
+    storage: 2Gi
   volumeMode: Filesystem
   storageClassName: standard
   accessModes:
